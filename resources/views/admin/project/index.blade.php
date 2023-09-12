@@ -14,6 +14,7 @@
                     <th scope="col">Slug</th>
                     <th scope="col">Image</th>
                     <th scope="col">Type</th>
+                    <th scope="col">Tecnologie</th>
                     <th scope="col">Date-1</th>
                     <th scope="col">Date-2</th>
 
@@ -33,6 +34,14 @@
                         @else
                             <td>not type</td>
                         @endif
+
+                        <td>
+                            @forelse ($project->technologies as $technology)
+                                <span class="badge text-bg-{{ $technology->color }} ">{{ $technology->label }}</span>
+                            @empty
+                                -
+                            @endforelse
+                        </td>
 
                         <td>{{ $project->created_at }}</td>
                         <td>{{ $project->updated_at }}</td>

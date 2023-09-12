@@ -41,7 +41,7 @@
         <img src="{{ $project->image ? asset('storage/' . $project->image) : 'https://marcolanci.it/utils/placeholder.jpg' }}"
             alt="preview" class="img-fluid" id="image-preview">
     </div>
-    <div class="col-6">
+    <div class="col-6 my-3">
         <select name="type_id" id="">
             <option value="1">FrontEnd</option>
             <option value="2">BackEnd</option>
@@ -50,7 +50,52 @@
             <option value="5">Design</option>
         </select>
     </div>
+
 </div>
+
+<div class="col-6 my-5 d-flex">
+    <div class="mx-2">
+        <input type="checkbox" id="" name="technologies[]" />
+        <label for="scales">HTML</label>
+    </div>
+
+    <div class="mx-2">
+        <input type="checkbox" id="" name="technologies[]" />
+        <label for="scales">CSS</label>
+    </div>
+
+    <div class="mx-2">
+        <input type="checkbox" id="" name="technologies[]" />
+        <label for="scales">JAVASCRIPT</label>
+    </div>
+
+    <div class="mx-2">
+        <input type="checkbox" id="" name="technologies[]" />
+        <label for="scales">JAVA</label>
+    </div>
+
+    <div class="mx-2">
+        <input type="checkbox" id="" name="technologies[]" />
+        <label for="scales">PHP</label>
+    </div>
+
+    <div class="mx-2">
+        <input type="checkbox" id="" name="technologies[]" />
+        <label for="scales">SQL</label>
+    </div>
+
+    <div class="mx-2">
+        <input type="checkbox" id="" name="technologies[]" />
+        <label for="scales">LARAVEL</label>
+    </div>
+
+    <div class="mx-2">
+        <input type="checkbox" id="" name="technologies[]" />
+        <label for="scales">VUE</label>
+    </div>
+</div>
+
+
 <hr>
 <div class="d-flex justify-content-end mt-4">
     <button class="btn btn-outline-success">
