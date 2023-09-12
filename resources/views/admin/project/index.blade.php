@@ -14,7 +14,7 @@
                     <th scope="col">Slug</th>
                     <th scope="col">Image</th>
                     <th scope="col">Type</th>
-                    <th scope="col">Tecnologie</th>
+                    <th scope="col">Tecnologies</th>
                     <th scope="col">Date-1</th>
                     <th scope="col">Date-2</th>
 

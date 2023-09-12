@@ -55,42 +55,42 @@
 
 <div class="col-6 my-5 d-flex">
     <div class="mx-2">
-        <input type="checkbox" id="" name="technologies[]" />
+        <input type="checkbox" id="" name="technologies[]" value="1" />
         <label for="scales">HTML</label>
     </div>
 
     <div class="mx-2">
-        <input type="checkbox" id="" name="technologies[]" />
+        <input type="checkbox" id="" name="technologies[]" value="2" />
         <label for="scales">CSS</label>
     </div>
 
     <div class="mx-2">
-        <input type="checkbox" id="" name="technologies[]" />
+        <input type="checkbox" id="" name="technologies[]"value="3" />
         <label for="scales">JAVASCRIPT</label>
     </div>
 
     <div class="mx-2">
-        <input type="checkbox" id="" name="technologies[]" />
+        <input type="checkbox" id="" name="technologies[]" value="4" />
         <label for="scales">JAVA</label>
     </div>
 
     <div class="mx-2">
-        <input type="checkbox" id="" name="technologies[]" />
+        <input type="checkbox" id="" name="technologies[]" value="5" />
         <label for="scales">PHP</label>
     </div>
 
     <div class="mx-2">
-        <input type="checkbox" id="" name="technologies[]" />
+        <input type="checkbox" id="" name="technologies[]" value="6" />
         <label for="scales">SQL</label>
     </div>
 
     <div class="mx-2">
-        <input type="checkbox" id="" name="technologies[]" />
+        <input type="checkbox" id="" name="technologies[]" value="7" />
         <label for="scales">LARAVEL</label>
     </div>
 
     <div class="mx-2">
-        <input type="checkbox" id="" name="technologies[]" />
+        <input type="checkbox" id="" name="technologies[]" value="8" />
         <label for="scales">VUE</label>
     </div>
 </div>

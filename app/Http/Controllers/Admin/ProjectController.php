@@ -56,6 +56,7 @@ class ProjectController extends Controller
     {
         $project->fill($request->all());
         $project->save();
+        $project->technologies()->sync($request->technologies);
         return to_route('admin.project.show', compact('project'));
     }
 
